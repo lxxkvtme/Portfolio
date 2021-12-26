@@ -1,0 +1,247 @@
+.body {
+  margin: 120px 150px 200px 150px;
+}
+
+/* Home */
+
+.profil {
+  display: flex;
+  justify-content: center;
+}
+
+.profil img {
+  border-radius: 50%;
+  width: 480px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.teks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.teks h1 {
+  font-size: 100px;
+}
+
+.about h4 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.6em;
+  width: 400px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mylink {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  border: 1px solid black;
+  font-size: 15pt;
+  font-weight: bolder;
+}
+
+.link1 {
+  background-color: #eea302;
+}
+
+.link1:hover {
+  background-color: transparent;
+}
+
+.link2 {
+  background-color: #ff3b25;
+}
+
+.link2:hover {
+  background-color: transparent;
+}
+
+.link3 {
+  background-color: #80d8da;
+}
+
+.link3:hover {
+  background-color: transparent;
+}
+
+/* Resume */
+
+.judul h1 {
+  font-size: 42px;
+  margin-bottom: 80px;
+}
+
+.resumelist {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resumelist h3 {
+  font-size: 28px;
+}
+
+.list {
+  display: flex;
+  width: 500px;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+.list .year {
+  width: 400px;
+  margin-right: 10px;
+}
+
+.mylist {
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.paragraph p {
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+/* Project */
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.project .nameproject {
+  width: 500px;
+}
+
+.nameproject h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.nameproject p {
+  line-height: 1.6em;
+  font-weight: 300;
+  width: 410px;
+}
+
+.project img {
+  width: 490px;
+  height: 330px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: -60px;
+}
+
+.mycontact h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.mycontact p {
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.send {
+  display: flex;
+  flex-direction: column;
+}
+
+.send .name,
+.subject,
+.message {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.form label,
+.textarea label {
+  margin-bottom: 10px;
+}
+
+.form input {
+  padding: 10px 5px;
+  width: 200px;
+  height: 25px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.message .textarea {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.message textarea {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px 5px;
+  height: 120px;
+  width: 280px;
+}
+
+.submit {
+  height: 140px;
+  width: 140px;
+  background-color: #eea302;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 15pt;
+  font-weight: bolder;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.mylink,
+.submit,
+.nav a {
+  transition: 0.3s;
+}
+
+.submit:hover {
+  background-color: transparent;
+}

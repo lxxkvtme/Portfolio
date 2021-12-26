@@ -1,0 +1,30 @@
+.footer {
+  padding-bottom: 80px;
+}
+
+.footer hr {
+  margin-bottom: 40px;
+}
+
+.linkfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.foot h3 {
+  margin-bottom: 10px;
+}
+
+.linkfooter .foot p {
+  font-size: 11pt;
+  font-weight: 300;
+}
+
+.linkfooter p {
+  font-size: 9pt;
+  font-weight: 300;
+}
